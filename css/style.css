@@ -61,10 +61,29 @@ text-align: center;
 
 width: 800px;
 
-border: 2px dashed black;
-background-color: #ec81eb;
+
+
 min-height: 400px;
 
+
+}
+
+.h1 {
+    font-style: italic white;
+}
+.p{
+    font-style: italic white;
+}
+.hero > .container .button1 {
+    border-style: solid;
+    background-color: white;
+    font-style: italic black;
+}
+
+.hero > .container .button2 {
+    border-style: solid;
+    background-color: black;
+    font-style: italic white;
 
 }
 
