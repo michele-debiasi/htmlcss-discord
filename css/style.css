@@ -52,10 +52,9 @@ text-align: center;
 
 .hero {
     padding: 45px 0;
+    background-image: url(../discord-assets/img/jumbo.png);
 }
-.jumbo-1{
-    background-image: element(jumbo);
-}
+
 
 .hero > .container {
 
