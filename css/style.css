@@ -52,7 +52,6 @@ text-align: center;
 
 .hero {
     padding: 45px 0;
-    background-image: element(jumbo);
 }
 
 .hero > .container {
@@ -62,7 +61,8 @@ width: 800px;
 
 border: 2px dashed black;
 background-color: #ec81eb;
-min-height: 400px
+min-height: 400px;
+background-image: element(jumbo);
 
 
 }
