@@ -52,9 +52,7 @@ text-align: center;
 
 .hero {
     padding: 45px 0;
-
-    background-color: #010088;
-    border: 2px dashed black;
+    background-image: element(jumbo);
 }
 
 .hero > .container {
