@@ -68,24 +68,6 @@ min-height: 400px;
 
 }
 
-.hero > .container .h1 {
-    font-style: white;
-}
-.hero > .container .p{
-    font-style:white;
-}
-.hero > .container .button1 {
-    border-style: groove;
-    background-color: white;
-    font-style: italic black;
-}
-
-.hero > .container .button2 {
-    border-style: solid;
-    background-color: black;
-    font-style: italic white;
-
-}
 
 /* # MAIN */
 
