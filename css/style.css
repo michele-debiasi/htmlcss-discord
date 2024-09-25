@@ -1,184 +1,246 @@
-*{
+*
+{
     box-sizing: border-box;
-    margin: 0%;
     padding: 0%;
+    margin: 0%;
+    font-family: 'Yantramanav', sans-serif;
 }
 
-/* # UTILS */
-.container{
-    margin: 0 auto;
-    padding: 0 10px;
-    width: 1000px;
-    max-width: 100%;
-}
-
-/* HEADER */
-
-
-.upper-header{
-background-color: #acd6e4;
-padding: 15px 0;
+.clearfix::after
+{
+    content: " ";
+    display: table;
+    clear: both;
 
 }
+ul
+{
+    display: inline-block;
+    list-style: none;
+}
 
-.upper-header > .container {
-    display: flex;
+.fl
+{
+    float: left;
+}
 
+.fr
+{
+    float: right;
+}
+.logo
+{
+    width: 25%;
+    height: 60px;
+    padding-top: 2px;
+}
+
+.menu
+{
+    width: 50%;
+    height: 60px;
+    color: white;
+}
+
+nav .menu li{
+margin-left: 20px;
+display: inline-block;
+padding-top:7px ;
+
+}
+
+.contenitore button{
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    font-size: 24px;
+}
+
+.colora-bottoni
+{
+    background-color: black;
+    color: white;
+}
+.contenitore button {
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+nav .pulsante-login 
+{
+    width: 25%;
+    height: 60px;
+}
+
+nav .pulsante-login li button
+{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 50px;
+    border: none;
+}
+
+header
+{
+    background-image: url(../img/jumbo.png);
+    height: 40vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+nav
+{
+    width: 80%;
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.centra
+{
+    transform: translate(-50% , -50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+}
+
+.contenitore
+{
+    width: 49%;
+    text-align: center;
 
 
 }
 
-.upper-header .header-item {
-background-color: #d3a220;
-border: 2px dashed black;
-flex-basis: 20%;
-padding: 5px 10px;
-
+.contenitore p,h1
+{
+    width: 450px;
+    word-wrap: break-word;
+    margin: auto;
+    padding-top: 35px;
 }
 
-.upper-header .nav-container {
-flex-grow: 1;
+main
+{
+    width: 1280px;
+    margin: auto;
+}
+
+.grigio
+{
+background-color:rgba(128, 128, 128, 0.1 );
 text-align: center;
+padding-bottom: 50px;
+}
+
+.grigio h1,p
+{
+    padding-top: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.grigio h2
+{
+    background-image: url(../img/stars.svg);
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.grigio button
+{
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: rgba(62, 110, 199, 0.5);
+    border: none;
+}
+
+footer
+{
+    background-color: rgb(27, 27, 27);
+    height: 50vh;
+}
+
+.foot
+{
+    width: 1280px;
+    margin: auto;
+    padding-top: 50px;
+
+}
+.testo2
+{
+    font-size: 24px;
+color: aliceblue;    
+}
+.foot ul
+{
+    padding-left: 80px;
+    width: 20%;
+    text-align: center;
+    list-style: none;
+    float: left;
 
 }
 
-.upper-header .login-container {
-    text-align: right;
-
-
-}
-
-/* * HERO SECTION */
-
-.hero {
-    padding: 45px 0;
-    background-image: url(../discord-assets/img/jumbo.png);
-}
-
-
-.hero > .container {
-
-
-width: 800px;
-
-
-
-min-height: 400px;
-
+.foot li
+{
+padding-bottom: 10px;
+color: white;
 
 }
 
-
-/* # MAIN */
-
-/* *COL SECTIONS */
-
-.main-section {
-    padding: 45px 0;   
-}
-
-.main-section:nth-child(even){
-    background-color: #d2d2d2;
+hr
+{
+    width: 1280px;
+    margin: auto;
 }
 
 
-.main-section> .container {
-    display: flex;
+.foot ul li:first-child
+{
+    color: cornflowerblue;
 }
 
-.main-section.single-col > .container {
-    min-height: 800px;
-    background-color: darkgreen;
-    border: 2px dashed black;
+select
+{
+    display: block;
+    margin: auto;
 }
 
-.main-section:nth-child(even)>.container {
-    flex-direction: row-reverse;
-    
-    
+.pulsante-logout 
+{
+    width: 50%;
 }
 
-.main-section .large-col {
-    flex-basis: 60%;
-
-    background-color: #1e8ff7;
-    min-height: 400px;
-    border: 2px dashed black;
+.pulsante-logout button
+{
+    padding: 5px;
+    border-radius: 50px;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
-.main-section .small-col {
-    flex-basis: 40%;
-
-    background-color: #f9bfcb;
-    min-height: 400px;
-    border: 2px dashed black;
-
+.pulsante-logout li 
+{
+    float: right;
 }
 
-/* FOOTER */
-footer {
-    padding-top: 10px;
-
-    background-color: #222629;
-
+.margine
+{
+    padding-top:200px;
 }
 
-.upper-footer {
-    padding-bottom: 20px;
-    border-bottom: 1px solid white;
-    margin-bottom: 20px;
-    flex-direction: row;
-    display: flex;
-}
-
-/* *upper footer */
-.upper-footer > .container {
-    display: flex;
-    
-}
-
-.upper-footer .small-col {
-    flex-basis: 30%;
-
-    background-color: #ee8081;
-    min-height: 500px;
-    border: 2px dashed black;
-}
-
-.upper-footer .large-col {
-    flex-basis: 70%;
-    display: flex;
-
-    background-color: #1fafa6;
-    min-height: 500px;
-    border: 2px dashed black;
-
-
-}
-
-.upper-footer .smaller-col {
-    width:25%;
-
-    border: 2px dashed white;
-    
-}
-
-/* LOWER FOOTER */
-.lower-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    background-color: #7efdd2;
-    min-height: 80px;
-
-}
-
-.logo-container,
-.button-container{
-padding: 5 10px;
-
-    background-color: #f7b0c1;
-    border: 2px dashed black;
-
+.relative
+{
+    position: relative;
 }
